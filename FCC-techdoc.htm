@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- Technical documentation FCC project--> 
+<html>
+<head>
+	<title>Technical Documentation Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic' rel='stylesheet'>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<style>
+	h1, header {
+		font-size: 30px;
+		font-weight: 500;
+		margin-left: 35px;
+		font-family: Lato;
+	}
+	p {
+		margin-left: 75px;
+		font-family: Lato;
+		line-height: 1.5;
+		font-size: 18px;
+	}
+	div.item2 ol li{
+		margin-left: 75px;
+		font-family: Lato;
+		line-height: 1.5;
+		font-size: 18px;
+	}
+	nav {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		overflow: auto;
+		width: 305px;
+		height: 100%;
+		background-color: white;
+		border-right-style: solid;
+		border-right-width: 1px;
+	}
+	div.item1 nav ul li {
+		list-style-type: none; 
+		border-top-style: solid;
+		border-top-width: 1px;
+		margin-left: -40px;
+	}
+	.nav-link {
+		display: block;
+		text-decoration: none;
+		font-size: 18px;
+		color: black;
+		padding: 12.5px;
+		padding-left: 18px;
+		font-family: Lato;
+	}
+	li a:hover {
+		background-color: #999;
+		padding: 6.25px -18px 6.25px 18px;
+	}
+	.item2 {
+		margin-left: 300px;
+		margin-right: 5%;
+	}
+	@media (max-width: 740px) {
+		nav {
+		position: relative;
+		left: 0px;
+		top: 0px;
+		margin-top: -10px;
+		margin-left: 0px;
+		
+		margin-bottom: 20px;
+		overflow: auto;
+		width: 100%;
+		height: 250px;
+		background-color: white;
+		border-style: solid;
+		border-width: 1px;
+		
+		}
+		.item2 {
+			margin-left: 0;
+			margin-right: 5%;
+			text-align: left;
+		}
+	}
+	code {
+		margin-left: 75px;
+	}
+	</style>
+</head>
+<body>
+	<div class="item1">
+		<nav id="navbar">
+			<header style="margin-top: 12px;">Engine Basics</header>
+			<ul>
+				<li><a href="#The_Modern_Engine" class="nav-link">The Modern Engine</a></li>
+				<li><a href="#Cylinder_Block" class="nav-link">Cylinder Block</a></li>
+				<li><a href="#Cylinder_Heads" class="nav-link">Cylinder Heads</a></li>
+				<li><a href="#Crankshaft" class="nav-link">Crankshaft</a></li>
+				<li><a href="#Camshafts" class="nav-link">Camshafts</a></li>
+				<li><a href="#Rods_and_Pistons" class="nav-link">Rods and Pistons</a></li>
+				<li><a href="#Oiling_System" class="nav-link">Oiling System</a></li>
+				<li><a href="#Charging_System" class="nav-link">Charging System</a></li>
+				<li><a href="#Computer_ECU" class="nav-link">Computer ECU</a></li>
+				<li><a href="#Fuel_System" class="nav-link">Fuel System</a></li>
+				<li><a href="#Ignition_System" class="nav-link">Ignition System</a></li>
+			</ul>
+		</nav>
+	
+	<div class="item2">
+		<main id="main-doc">
+			<img src="engine-blueprint.png" alt="engine blueprint" style="margin-left: 75px">
+			<section id="The_Modern_Engine" class="main-section">
+				<header>The Modern Engine</header>
+				<p>The first commercially successful internal combustion engine was created by Étienne Lenoir around 1859 and the first modern internal combustion engine was created in 1876 by Nikolaus Otto (see Otto engine).The term internal combustion engine usually refers to an engine in which combustion is intermittent, such as the more familiar four-stroke and two-stroke piston engines. All modern automobile engines use a 4-stroke design.
+					<ol>
+						<li>Intake Stroke - The piston moves down sucking air and fuel into the cylinder.</li>
+						<li>Compression Stroke - The piston moves up compressing the air/fuel mixture.</li>
+						<li>Power Stroke - The burning fuel expands pushing the piston back down.</li>
+						<li>Exhaust Stroke - The piston moves back up pushing he exhaust gas out.</li>
+					</ol></p>
+			</section>
+			<section id="Cylinder_Block" class="main-section">
+				<header>Cylinder Block</header>
+				<p>An engine block is the structure which contains the cylinders, and other parts, of an internal combustion engine. In an early automotive engine, the engine block consisted of just the cylinder block, to which a separate crankcase was attached. Modern engine blocks typically have the crankcase integrated with the cylinder block as a single component. Engine blocks often also include elements such as coolant passages and oil galleries. </p>
+			</section>
+			<section id="Cylinder_Heads" class="main-section">
+				<header>Cylinder Heads</header>
+				<p>In an internal combustion engine, the cylinder head (often informally abbreviated to just head) sits above the cylinders on top of the cylinder block. It closes in the top of the cylinder, forming the combustion chamber. This joint is sealed by a head gasket. In most engines, the head also provides space for the passages that feed air and fuel to the cylinder, and that allow the exhaust to escape. The head can also be a place to mount a direct fuel injector. Typically a modern cylinder head contains:
+					<ol>
+						<li>Intake Valves</li>
+						<li>Exhaust Valves</li>
+						<li>Spark Plugs</li>
+					</ol>
+				</p>
+			</section>
+			<section id="Crankshaft" class="main-section">
+				<header>Crankshaft</header>
+				<p>A crankshaft is a shaft driven by a crank mechanism, consisting of a series of cranks and crankpins to which the connecting rods of an engine are attached. It is a mechanical part able to perform a conversion between reciprocating motion and rotational motion.</p>
+			</section>
+			<section id="Rods_and_Pistons" class="main-section">
+				<header>Rods and Pistons</header>
+				<p> The piston’s function is to act as a moveable plug in the cylinder, forming the bottom part of the combustion chamber. There’s a gas-tight seal between the piston and the cylinder wall - so the only way for the hot combustion gases to expand is by forcing the piston down. It’s the same principle behind a cannonball, but instead of flying off into someone’s beloved pirate ship, the piston is pushed back up the cylinder by the rotating crankshaft and the cycle repeats itself. The piston is connected to the crankshaft through a connecting rod , often shortened to rod or conrod. These parts together are known as the piston assembly. </p>
+			</section>
+			<section id="Camshafts" class="main-section">
+				<header>Camshafts</header>
+				<p> Camshafts are made from cast iron or steel and can be mostly found in the head of an engine, nestled above the cylinders. They are generally found in two orientations:</p>
+				<ol>
+				<li>SOHC (Single Over-Head Cam)</li>
+				<li>DOHC (Dual Over-Head Cam)</li>
+				</ol>
+				<p>Running along the shaft are lobes which are manufactured to sit at different angles. These lobes are positioned in such a way that – when the camshaft is rotated – they come into contact with rocker arms that then open the engine valves. The lobes themselves are egg-shaped, with the ‘pointy’ end contacting the rocker arms, opening the valves at specific times within the engine cycle. This allows the air/fuel mixture to enter the cylinder and then the exhaust gases to leave the cylinder at the required time.</p>
+			</section>
+			<section id="Oiling_System" class="main-section">
+				<header>Oiling System</header>
+				<p>The engine lubrication system is to distribute oil to the moving parts to reduce friction between surfaces. Lubrication plays a key role in the life expectancy of an automotive engine. The Oil pump pushes oil from a sump to the main bearings, the oil passes into drilled passages in the crankshaft and the big-end bearings of the connecting rod.</p>
+			</section>
+			<section id="Charging_System" class="main-section">
+				<header>Charging System</header>
+				<p>The charging system keeps a charge in your battery and provides electrical energy for the radio, lights and other features while the car is running. The modern charging system consists of the alternator, battery, wiring and electronic control unit (ECU).</p>
+			</section>
+			<section id="Computer_ECU" class="main-section">
+				<header>Computer ECU</header>
+				<p>An Electronic Control Unit (ECU) is any embedded system in automotive electronics that controls one or more of the electrical systems or subsystems in a vehicle. Types of ECU include Engine Control Module (ECM), Powertrain Control Module (PCM), Transmission Control Module (TCM), Brake Control Module (BCM or EBCM), Central Control Module (CCM), Central Timing Module (CTM), General Electronic Module (GEM), Body Control Module (BCM), Suspension Control Module (SCM), control unit, or control module. Taken together, these systems are sometimes referred to as the car's computer. An example of python code used in a car computer programs could look like:</p>
+				<code>with serial.Serial('/dev/ttyUSB0', 115200, timeout=1) as ser:</code>
+				<code>#ser.write(b'114 0 5 0 0 144')</code><br>
+				<code>ser.write(b'r 0 9 0 0 1 0')</code><br>
+				<code>x = ser.read(1024)</code><br>
+				<code>ser.close()</code>
+				<br>
+				<br>
+			</section>
+			<section id="Fuel_System" class="main-section">
+				<header>Fuel System</header>
+				<p>The fuel system is made up of the fuel tank, pump, filter, and injectors or carburetor, and is responsible for delivering fuel to the engine as needed. Each component must perform flawlessly to achieve expected vehicle performance and reliability.</p>
+			</section>
+			<section id="Ignition_System" class="main-section">
+				<header>Ignition System</header>
+				<p>The purpose of the ignition system is to generate a very high volt age from the car's 12 volt battery , and to send this to each sparkplug in turn, igniting the fuel-air mixture in the engine 's combustion chambers . The coil is the component that produces this high voltage.</p>
+				<br>
+				<p>To read more about modern engines, click <a href="https://en.wikipedia.org/wiki/Internal_combustion_engine"> HERE</a></p>
+			</section>
+		</main><br><br>
+	</div>
+
+</body>
+</html>
